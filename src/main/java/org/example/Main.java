@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Entradas del problema
-        String nombreUsuario="Juan Jose Gallego Mesa";
+        String nombreUsuario="Holguin";
         short edadUsuario=34;
         String telefonoUsuario="3225962363";
         String documentoIdentidad="1017187878";
@@ -32,8 +32,19 @@ public class Main {
         //desde el TECLADO (Recibir datos)
         Scanner leerDato = new Scanner(System.in);
 
-        System.out.println("Hola soy una IA, cual es tu nombre?");
-        //leerDato.nextLine();
+        System.out.println("cual es tu nombre?");
+        nombreUsuario=leerDato.nextLine();
+        System.out.println("cual es tu numero celular");
+        telefonoUsuario=leerDato.nextLine();
+        System.out.println("cual es tu numero de cedula");
+        documentoIdentidad=leerDato.nextLine();
+        System.out.println("Bienvenido " + nombreUsuario);
+        System.out.println("Hola tu documento de identidad es " + documentoIdentidad + " Y tu numero de celular es " + telefonoUsuario);
+
+
+
+
+
 
 
 
